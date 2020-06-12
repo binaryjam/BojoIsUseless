@@ -24,10 +24,6 @@
       "route": "/*",
       "serve": "/index.html",
       "statusCode": 200
-    },
-        {
-      "route": "/jeff/*",
-      "statusCode": 404
     }
   ],
   "platformErrorOverrides": [
