@@ -21,12 +21,12 @@
       "allowedRoles": ["authenticated"]
     },
     {
-      "route": "/jeff/*",
+      "route": "/*",
       "serve": "/index.html",
       "statusCode": 200
     },
         {
-      "route": "/*",
+      "route": "/jeff/*",
       "statusCode": 404
     }
   ],
