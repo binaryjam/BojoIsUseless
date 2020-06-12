@@ -10,7 +10,7 @@
     },
     {
       "route": "/api/discounts",
-      "allowedRoles": ["preferred"]
+      "allowedRoles": ["authenticated"]
     },
     {
       "route": "/api/x/*",
