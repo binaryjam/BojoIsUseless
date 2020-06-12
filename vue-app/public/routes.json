@@ -21,9 +21,13 @@
       "allowedRoles": ["authenticated"]
     },
     {
-      "route": "/*",
+      "route": "/jeff/*",
       "serve": "/index.html",
       "statusCode": 200
+    },
+        {
+      "route": "/*",
+      "statusCode": 404
     }
   ],
   "platformErrorOverrides": [
